@@ -13,7 +13,7 @@ For this task the results have been reproduced for the car racing environment. A
 
 ## Task 3
 
-The scripts used for the GAN files can be found in this repository.
+The scripts used for the GAN files can be found in this repository. Based on the results, we can come to the following conclusion. In principle, by combining a variational autoencoder and a generative adversarial network, the VAE reconstruction objective can be based on learned feature representations in the GAN method. As a result, we will replace element-wise errors with feature-wise errors to better capture the data distribution while providing invariance. We apply our approach to world models in terms of visual fidelity and show that it outperforms VAEs with element-wise similarity tests. Furthermore, we will demonstrate that the method learns an embedding in which high-level abstract visual features can be modified using simple arithmetic. Also, we must keep in mind that the GAN method needs more training for a better recreation of images.
 
 
 # WorldModels
